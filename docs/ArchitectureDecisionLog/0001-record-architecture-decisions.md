@@ -1,8 +1,8 @@
 # 1.  Record architecture decisions
 
-Date: 2024-03-03
+Date: 2024-03-01
 
-## Context
+## Problem
 
 We need to record the architectural decisions made on this project and store it as close to code as possible.
 
