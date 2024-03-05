@@ -4,11 +4,11 @@ Date: 2024-03-01
 
 ## Problem
 
-We need to record the architectural decisions made on this project and store it as close to code as possible.
+I need to record the architectural decisions made on this project and store it as close to code as possible.
 
 ## Decision
 
-We will use the Architecture Decision Records concept, described by [Michael Nygard](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions), to record the logs.
+I will use the Architecture Decision Records concept, described by [Michael Nygard](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions), to record the logs.
 
 ## Consequences
 

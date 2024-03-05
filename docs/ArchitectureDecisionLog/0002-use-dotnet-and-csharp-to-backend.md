@@ -4,7 +4,7 @@ Date: 2024-03-01
 
 ## Problem
 
-We need to specify the platform and programming language for the business part of the application.
+I need to specify the platform and programming language for the business part of the application.
 
 ## Decision
 
