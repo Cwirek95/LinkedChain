@@ -1,4 +1,4 @@
-# 3.  Use modular monolit architecture for the backend part of the application
+# 3.  Use modular monolith architecture for the backend part of the application
 
 Date: 2024-03-01
 
