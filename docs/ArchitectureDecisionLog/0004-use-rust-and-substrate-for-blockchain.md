@@ -1,4 +1,4 @@
-# 3.  Use Rust and Substrate Framework for blockchain part of the application
+# 4.  Use Rust and Substrate Framework for blockchain part of the application
 
 Date: 2024-03-01
 
