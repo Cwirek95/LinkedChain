@@ -6,7 +6,6 @@
 
 LinkedChain is a web application that is a kind of extension of the functionality of the LinkedIn platform through the use of blockchain technology. The project aims to make it easier to create and manage employer-employee relationships and build a trusted reputation in the business community.
 
-<br>
 
 ### Application parts and technologies used:
 
@@ -27,3 +26,17 @@ LinkedChain is a web application that is a kind of extension of the functionalit
 - **Autonomy:** Blockchain enables the automation of many processes through smart contracts, which are computer programs that run on the blockchain. These can be used to automatically record events
 
 - **Data security:** Blockchain provides a high level of data security through the use of a cryptographic algorithm and the distributed nature of the network. Each block of data is linked to the previous one through complex cryptographic functions, making it difficult to alter or forge data
+
+<br>
+
+### Why Linkedin?
+
+- **Application purpose:** It is not intended to be a competitor to Linkedin, but rather an extension of its functionality
+
+- **Business connections:** In the application described, which aims to establish an employee-employer relationship, LinkedIn is a natural choice because of its business relevance and representation of professional networks
+
+- **User Credibility:** Using LinkedIn accounts for authentication can provide greater credibility to users. Because information on LinkedIn is often verified and more difficult to fake than on other social media platforms such as Facebook and Twitter, authentication through LinkedIn can minimize the risk of fake profiles
+
+- **Minimize data duplication:** LinkedIn contains a wealth of information that can be useful in the context of an application, such as work experience, skills or education. Using LinkedIn authentication, an application can access this data without requiring users to re-enter it, minimizing data duplication and streamlining the registration process
+
+- **Simplified registration process:** Users often prefer a quick and convenient registration process. Authentication via LinkedIn can simplify this process by eliminating the need for users to enter new information or create a new account; they simply sign in using their existing LinkedIn account
