@@ -40,3 +40,20 @@ LinkedChain is a web application that is a kind of extension of the functionalit
 - **Minimize data duplication:** LinkedIn contains a wealth of information that can be useful in the context of an application, such as work experience, skills or education. Using LinkedIn authentication, an application can access this data without requiring users to re-enter it, minimizing data duplication and streamlining the registration process
 
 - **Simplified registration process:** Users often prefer a quick and convenient registration process. Authentication via LinkedIn can simplify this process by eliminating the need for users to enter new information or create a new account; they simply sign in using their existing LinkedIn account
+
+<br>
+<br>
+
+# Goals and motivations
+
+### Business goals:
+
+- **Verification and Guarantee of Employment:** Creating a tool that allows companies and employees to verify their employment history in an unquestionable and immutable way through the use of blockchain technology. This provides both employers and employees with confidence in the reliability of employment information
+
+- **Trust and Authenticity of Reviews:** Today's review platforms are often vulnerable to fake reviews or manipulation. I wanted to create a system where reviews about employers and employees are based on real experiences, ensuring the integrity and credibility of the reviews
+
+- **Streamlining Recruitment Processes:** With the ability to verify employment history via blockchain, the application can significantly streamline recruitment processes for employers and increase their efficiency by eliminating the need for manual data verification
+
+- **Increasing Employee Engagement:** With the ability to build a reputation and receive honest reviews, employees may feel more motivated to engage in their work, potentially leading to increased employee retention
+
+- **Promoting Fair Competition:** By providing the ability to prove the authenticity of references and reviews, the application can promote fair competition in the labour market, rewarding commitment and competence
