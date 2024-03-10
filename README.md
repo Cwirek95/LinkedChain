@@ -57,3 +57,13 @@ LinkedChain is a web application that is a kind of extension of the functionalit
 - **Increasing Employee Engagement:** With the ability to build a reputation and receive honest reviews, employees may feel more motivated to engage in their work, potentially leading to increased employee retention
 
 - **Promoting Fair Competition:** By providing the ability to prove the authenticity of references and reviews, the application can promote fair competition in the labour market, rewarding commitment and competence
+
+<br>
+
+### Development motivations:
+
+- **Development in DDD approach:** My goal is to deepen my knowledge and experience in Domain Driven Design (DDD), as I believe it is a key approach to building scalable and flexible applications
+
+- **Exploring the Blockchain sector:** Despite my limited experience with blockchain technology, I am intrigued by its potential applications and would like to learn more about its practical applications. Building an application using blockchain will give me hands-on experience in integrating with blockchain, creating and implementing smart contracts, and solving security and scalability challenges
+
+- **Working with Frontend technologies**: I also intend to expand my skills in front-end programming, with a particular focus on Angular, one of the most popular frameworks for developing advanced web applications. Working with Angular will allow me to learn best practices for creating responsive and interactive user interfaces, and to understand frontend-backend integration in the context of a web application
