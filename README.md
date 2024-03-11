@@ -67,3 +67,20 @@ LinkedChain is a web application that is a kind of extension of the functionalit
 - **Exploring the Blockchain sector:** Despite my limited experience with blockchain technology, I am intrigued by its potential applications and would like to learn more about its practical applications. Building an application using blockchain will give me hands-on experience in integrating with blockchain, creating and implementing smart contracts, and solving security and scalability challenges
 
 - **Working with Frontend technologies**: I also intend to expand my skills in front-end programming, with a particular focus on Angular, one of the most popular frameworks for developing advanced web applications. Working with Angular will allow me to learn best practices for creating responsive and interactive user interfaces, and to understand frontend-backend integration in the context of a web application
+
+<br>
+<br>
+
+# Roadmap
+
+The entire plan for my application is continuously updated in the [Projects](https://github.com/users/Cwirek95/projects/2) section
+
+<br>
+
+### The Priority Levels:
+
+| Priority | Description
+| --- | --- |
+| ![Static Badge](https://img.shields.io/badge/High-f94144) | These tasks are the necessary foundation of the application's operation. They are indispensable elements that ensure the proper functioning of the application's business logic. Their implementation is necessary to achieve the main functionality of the system |
+| ![Static Badge](https://img.shields.io/badge/Medium-fb8b24)| Medium priority tasks are not directly related to the core business logic, but add additional features or enhancements that improve the overall user experience. They will only be completed if there is enough time left before the project deadline |
+| ![Static Badge](https://img.shields.io/badge/Low-25a244) | Low-priority tasks are not essential to the application and do not directly affect its core business logic. They typically involve minor improvements, cosmetic UI changes, or other optional features |
