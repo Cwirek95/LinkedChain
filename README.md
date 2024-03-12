@@ -17,7 +17,7 @@ LinkedChain is a web application that is a kind of extension of the functionalit
 
 <br>
 
-### Why blockchain?
+### Why Blockchain?
 
 - **Data immutability:** Once the data is placed on the blockchain, it is permanent and cannot be changed or deleted without the consent of the majority of network participants. This ensures that data related to employee-employer relationships is authentic and immutable
 
@@ -84,3 +84,51 @@ The entire plan for my application is continuously updated in the [Projects](htt
 | ![Static Badge](https://img.shields.io/badge/High-f94144) | These tasks are the necessary foundation of the application's operation. They are indispensable elements that ensure the proper functioning of the application's business logic. Their implementation is necessary to achieve the main functionality of the system |
 | ![Static Badge](https://img.shields.io/badge/Medium-fb8b24)| Medium priority tasks are not directly related to the core business logic, but add additional features or enhancements that improve the overall user experience. They will only be completed if there is enough time left before the project deadline |
 | ![Static Badge](https://img.shields.io/badge/Low-25a244) | Low-priority tasks are not essential to the application and do not directly affect its core business logic. They typically involve minor improvements, cosmetic UI changes, or other optional features |
+
+<br>
+
+### First stage:
+
+**Deadline:** 08.06.2024 (until the end of the 100commitow competition)
+
+The main goal of the first phase of the project, prepared as part of the 100commitow competition, is to demonstrate the main business idea of building reliable and trustworthy labor relations based on the blockchain network. Accordingly, the main focus will be on proper design, configuration and integration of the main parts of the application. Then, simple functionalities will be added that can practically demonstrate the application of the presented business plan, i.e. the review and recommendation system.
+
+| ###### | Task | Priority
+| --- | --- | --- |
+| S1-1 | Create a detailed description of use cases | ![Static Badge](https://img.shields.io/badge/High-f94144) |
+| S1-2 | Define the structure of the web application and the relationships between its components | ![Static Badge](https://img.shields.io/badge/High-f94144) |
+| S1-3 | Develop the backend part of the application based on the DDD approach | ![Static Badge](https://img.shields.io/badge/High-f94144) |
+| S1-4 | Add authorization system based on Linkedin accounts | ![Static Badge](https://img.shields.io/badge/High-f94144) |
+| S1-5 | Create smart contracts using Rust language within the Polkadot and Substrate platform | ![Static Badge](https://img.shields.io/badge/High-f94144) |
+| S1-6 | Determine API interfaces for the backend and communication with the blockchain | ![Static Badge](https://img.shields.io/badge/High-f94144) |
+| S1-7 | Implementation of functionality related to employee-employer relations | ![Static Badge](https://img.shields.io/badge/High-f94144) |
+| S1-8 | Development of review and recommendation modules based on created system | ![Static Badge](https://img.shields.io/badge/High-f94144) |
+| S1-9 | Perform unit and integration testing for backend and blockchain parts of the application | ![Static Badge](https://img.shields.io/badge/Medium-fb8b24) |
+| S1-10 | Add documentation for APIs and smart contracts | ![Static Badge](https://img.shields.io/badge/Medium-fb8b24)  |
+| S1-11 | Create the user interface using Angular | ![Static Badge](https://img.shields.io/badge/Medium-fb8b24) |
+| S1-12 | Perform tests for frontend applications | ![Static Badge](https://img.shields.io/badge/Medium-fb8b24) |
+| S1-13 | End-to-end testing, UI/UX improvements | ![Static Badge](https://img.shields.io/badge/Low-25a244) |
+| S1-14 | Prepare a schedule for work on subsequent phases of the project | ![Static Badge](https://img.shields.io/badge/Low-25a244) |
+
+<br>
+
+### Backlog:
+
+This section will be updated with more ideas and features to be implemented in the future:
+
+- Extension of existing functionality
+- Increase the level of security for blockchain transactions
+- Add notification system
+- Add more types of contracts
+- Add contract negotiation functions
+- Add more options for terminating employment
+- Create administrator/moderator modules
+- Add user management
+- Use Event Sourcing
+- Integration with other platforms
+- Development of a review and recommendation module
+- Add recruitment platform
+- Documents management
+- Storing more resources in blockchain
+- Multiple language and localization support
+- Adapt to different sectors and industries
