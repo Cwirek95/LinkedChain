@@ -93,7 +93,7 @@ The entire plan for my application is continuously updated in the [Projects](htt
 
 The main goal of the first phase of the project, prepared as part of the 100commitow competition, is to demonstrate the main business idea of building reliable and trustworthy labor relations based on the blockchain network. Accordingly, the main focus will be on proper design, configuration and integration of the main parts of the application. Then, simple functionalities will be added that can practically demonstrate the application of the presented business plan, i.e. the review and recommendation system.
 
-| ###### | Task | Priority
+|  | Task | Priority
 | --- | --- | --- |
 | S1-1 | Create a detailed description of use cases | ![Static Badge](https://img.shields.io/badge/High-f94144) |
 | S1-2 | Define the structure of the web application and the relationships between its components | ![Static Badge](https://img.shields.io/badge/High-f94144) |
@@ -132,3 +132,22 @@ This section will be updated with more ideas and features to be implemented in t
 - Storing more resources in blockchain
 - Multiple language and localization support
 - Adapt to different sectors and industries
+
+<br>
+<br>
+
+# Domain
+
+Work on the domain began with drafting key assumptions about the main business part of the application and basic functionalities that could demonstrate its practical capabilities.
+
+<p align="center">
+    <img src="assets/images/stage1-assumptions.jpg" alt="Stage1-Assumptions" border="0" style="width:70%; height:auto;">
+</p>
+
+This was the basis for the next step, the business rules. They affected the entire business core of the application, as well as all the functions based on it.
+
+<p align="center">
+    <img src="assets/images/stage1-rules.jpg" alt="Stage1-BusinessRules" border="0" style="width:70%; height:auto;">
+</p>
+
+<br>
