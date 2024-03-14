@@ -151,3 +151,28 @@ This was the basis for the next step, the business rules. They affected the enti
 </p>
 
 <br>
+
+### Event Storming:
+During the event storming process, different scenarios and interactions in the business domain were explored. This technique helped to define the boundaries of the different contexts and their tasks.
+
+The entire modeled process is available on [MIRO](https://miro.com/app/board/uXjVNmXpFqM=/?share_link_id=366548857143).
+<br>
+Here are some sample processes:
+
+<p align="center">
+    <img src="assets/images/stage1-es1.jpg" alt="Stage1-EventStorming" border="0" style="width:100%; height:auto;">
+</p>
+
+<p align="center">
+    <img src="assets/images/stage1-es2.jpg" alt="Stage1-EventStorming" border="0" style="width:100%; height:auto;">
+</p>
+
+<p align="center">
+    <img src="assets/images/stage1-es3.jpg" alt="Stage1-EventStorming" border="0" style="width:100%; height:auto;">
+</p>
+
+<p align="center">
+    <img src="assets/images/stage1-es4.jpg" alt="Stage1-EventStorming" border="0" style="width:100%; height:auto;">
+</p>
+
+<br>
