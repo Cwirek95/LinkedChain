@@ -1,6 +1,22 @@
-# LinkedChain
+<br>
+
+<p align="center">
+    <img src="assets/images/LinkedChain-logo.png" alt="LinkedChain" border="0" style="width:60%; height:auto;">
+</p>
 
 <br>
+
+ [Introduction](#introduction) <br>
+ [Goals and motivations](#goals-and-motivations) <br>
+ [Features](#features) <br>
+ [How to run](#how-to-run) <br>
+ [Roadmap](#roadmap) <br>
+ [Domain](#domain) <br>
+ [Architecture](#architecture) <br>
+ [Contact](#contact) <br>
+
+ <br>
+ <br>
 
 # Introduction
 
@@ -13,7 +29,7 @@ LinkedChain is a web application that is a kind of extension of the functionalit
 | --- | --- |
 | Backend | ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white)  |
 | Frontend | ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) |
-| Blockchain | ![Polkadot](https://img.shields.io/badge/polkadot-E6007A?style=for-the-badge&logo=polkadot&logoColor=FFF) ![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white) |
+| Blockchain | ![Polkadot](https://img.shields.io/badge/polkadot-E6007A?style=for-the-badge&logo=polkadot&logoColor=FFF) ![Rust](https://img.shields.io/badge/rust-%23E34F26.svg?style=for-the-badge&logo=rust&logoColor=white) |
 
 <br>
 
@@ -42,6 +58,16 @@ LinkedChain is a web application that is a kind of extension of the functionalit
 - **Simplified registration process:** Users often prefer a quick and convenient registration process. Authentication via LinkedIn can simplify this process by eliminating the need for users to enter new information or create a new account; they simply sign in using their existing LinkedIn account
 
 <br>
+
+### References to design sites:
+
+|     | Name | Url
+| --- | --- | --- |
+| ![Static Badge](https://img.shields.io/badge/Miro-F7C922?style=for-the-badge&logo=Miro&logoColor=050036) | Domain & EventStorming | [CLICK](https://miro.com/app/board/uXjVNmXpFqM=/?share_link_id=366548857143) |
+| ![Static Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white) | Github Project Section | [CLICK](https://github.com/users/Cwirek95/projects/2) |
+| ![Static Badge](https://img.shields.io/badge/ADR(s)-3daee4?style=for-the-badge&) | Architecture Decision Records | [CLICK](https://github.com/Cwirek95/LinkedChain/tree/master/docs/ArchitectureDecisionLog) |
+
+<br>
 <br>
 
 # Goals and motivations
@@ -67,6 +93,26 @@ LinkedChain is a web application that is a kind of extension of the functionalit
 - **Exploring the Blockchain sector:** Despite my limited experience with blockchain technology, I am intrigued by its potential applications and would like to learn more about its practical applications. Building an application using blockchain will give me hands-on experience in integrating with blockchain, creating and implementing smart contracts, and solving security and scalability challenges
 
 - **Working with Frontend technologies**: I also intend to expand my skills in front-end programming, with a particular focus on Angular, one of the most popular frameworks for developing advanced web applications. Working with Angular will allow me to learn best practices for creating responsive and interactive user interfaces, and to understand frontend-backend integration in the context of a web application
+
+<br>
+<br>
+
+# Features
+
+It will be prepared as soon as the first version of the application is released...
+
+<br>
+<br>
+
+# How to run
+
+### Non-GUI version
+
+Will be available upon completion of the backend part...
+
+### Full Version
+
+Will be available upon completion of the frontend part...
 
 <br>
 <br>
@@ -176,3 +222,19 @@ Here are some sample processes:
 </p>
 
 <br>
+<br>
+
+# Architecture
+
+In progress...
+
+<br>
+<br>
+
+# Contact
+
+Created by [@Cwirek95](https://github.com/Cwirek95) - feel free to contact me! <br>
+
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andrzej-cwiertniak/)
+
+[![Gmail Badge](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&link=mailto:acwiertniak95@gmail.com)](mailto:acwiertniak95@gmail.com)
