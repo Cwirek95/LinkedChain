@@ -222,6 +222,29 @@ Here are some sample processes:
 </p>
 
 <br>
+
+### Subdomains:
+
+A number of key subdomains have been identified that are crucial for effective application management and development. Each subdomain has been carefully extracted to ensure clarity and precision in operation.
+
+<p align="center">
+    <img src="assets/images/stage1-subdomains.jpg" alt="Stage1-Subdomains" border="0" style="width:100%; height:auto;">
+</p>
+
+<p align="center">
+    <img src="assets/images/stage1-subdomains2.jpg" alt="Stage1-Subdomains" border="0" style="width:75%; height:auto;">
+</p>
+
+<br>
+
+### Bounded Contexts:
+The result of this work is the final form of bounded contexts that provide clarity and efficiency in action. Each context is well defined, allowing for clear separation of responsibilities and avoiding unnecessary conflicts.
+
+<p align="center">
+    <img src="assets/images/stage1-boundedcontexts.jpg" alt="Stage1-BoundedContexts" border="0" style="width:90%; height:auto;">
+</p>
+
+<br>
 <br>
 
 # Architecture
