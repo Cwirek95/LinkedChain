@@ -8,7 +8,6 @@
 
  [Introduction](#introduction) <br>
  [Goals and motivations](#goals-and-motivations) <br>
- [Features](#features) <br>
  [How to run](#how-to-run) <br>
  [Roadmap](#roadmap) <br>
  [Domain](#domain) <br>
@@ -97,22 +96,19 @@ LinkedChain is a web application that is a kind of extension of the functionalit
 <br>
 <br>
 
-# Features
-
-It will be prepared as soon as the first version of the application is released...
-
-<br>
-<br>
-
 # How to run
+
+### Non-Blockchain version
+
+Will be available as soon as the backend part of the application is completed....
 
 ### Non-GUI version
 
-Will be available upon completion of the backend part...
+Will be available as soon as the blockchain part of the application is completed....
 
-### Full Version
+### Full version
 
-Will be available upon completion of the frontend part...
+Will be available as soon as the fronted part of the application is completed....
 
 <br>
 <br>
@@ -249,7 +245,26 @@ The result of this work is the final form of bounded contexts that provide clari
 
 # Architecture
 
-In progress...
+The application is divided into 3 main parts that are built using completely different technologies.
+- The business part in .NET
+- User interface in Angular
+- Blockchain using Rust, Subsrate and Polkadot
+
+### General concept for the different parts of the system:
+
+<p align="center">
+    <img src="assets/images/stage1-systemdesign.png" alt="Stage1-GeneralSystemDesign" border="0" style="width:90%; height:auto;">
+</p>
+
+<br>
+
+### Architecture of the business part:
+
+The application in .NET uses Domain-Driven Design (DDD) tactical patterns and was developed according to the Modular Monolith Architecture.
+
+<p align="center">
+    <img src="assets/images/stage1-backendarchitecture.png" alt="Stage1-BackendArchitecture" border="0" style="width:90%; height:auto;">
+</p>
 
 <br>
 <br>
