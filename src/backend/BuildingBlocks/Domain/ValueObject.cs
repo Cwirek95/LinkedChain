@@ -85,32 +85,25 @@ public abstract class ValueObject : IEquatable<ValueObject>
             return Equals(f.GetValue(this), f.GetValue(obj));
         }
 
-        private IEnumerable<PropertyInfo> GetProperties()
-        {
-            if (_properties == null)
-            {
-                _properties = GetType()
-                    .GetProperties(BindingFlags.Instance | BindingFlags.Public)
-                    .Where(p => p.GetCustomAttribute(typeof(IgnoreMemberAttribute)) == null)
-                    .ToList();
-            }
-
-            return _properties;
-        }
+        private IEnumerable<PropertyInfo> GetProperties() =>
+            _properties ??= GetType()
+                .GetProperties(BindingFlags.Instance | BindingFlags.Public)
+                .Where(p => p.GetCustomAttribute(typeof(IgnoreMemberAttribute)) == null)
+                .ToList();
 
         private IEnumerable<FieldInfo> GetFields()
         {
-            if (_fields == null)
-            {
-                _fields = GetType().GetFields(BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic)
-                    .Where(p => p.GetCustomAttribute(typeof(IgnoreMemberAttribute)) == null)
-                    .ToList();
-            }
+            if (_fields != null) 
+                return _fields;
+            
+            _fields = GetType().GetFields(BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic)
+                .Where(p => p.GetCustomAttribute(typeof(IgnoreMemberAttribute)) == null)
+                .ToList();
 
             return _fields;
         }
 
-        private int HashValue(int seed, object value)
+        private static int HashValue(int seed, object value)
         {
             var currentHash = value?.GetHashCode() ?? 0;
 
