@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedChain.BuildingBlocks.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedChain.BuildingBlocks.Infrastructure", "BuildingBlocks\Infrastructure\LinkedChain.BuildingBlocks.Infrastructure.csproj", "{B14ABAE8-989E-42C6-BC67-92206D67D6F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedChain.BuildingBlocks.Application", "BuildingBlocks\Application\LinkedChain.BuildingBlocks.Application.csproj", "{CFA45CB7-0349-4BF5-B26D-920307624C80}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,9 +28,14 @@ Global
 		{B14ABAE8-989E-42C6-BC67-92206D67D6F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B14ABAE8-989E-42C6-BC67-92206D67D6F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B14ABAE8-989E-42C6-BC67-92206D67D6F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFA45CB7-0349-4BF5-B26D-920307624C80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFA45CB7-0349-4BF5-B26D-920307624C80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFA45CB7-0349-4BF5-B26D-920307624C80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFA45CB7-0349-4BF5-B26D-920307624C80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{3397C05F-1777-47A8-B833-4E4EF69E23E4} = {52E292A3-2736-439C-A434-0A6F91D4A49B}
 		{B14ABAE8-989E-42C6-BC67-92206D67D6F8} = {52E292A3-2736-439C-A434-0A6F91D4A49B}
+		{CFA45CB7-0349-4BF5-B26D-920307624C80} = {52E292A3-2736-439C-A434-0A6F91D4A49B}
 	EndGlobalSection
 EndGlobal
