@@ -7,4 +7,6 @@ public class Offer : Entity, IAggregateRoot
     public OfferId Id { get; private set; }
 
     private OfferStatus _status;
+
+    private ContractType _contractType;
 }
