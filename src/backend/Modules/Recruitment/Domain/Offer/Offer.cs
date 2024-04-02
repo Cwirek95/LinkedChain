@@ -13,4 +13,8 @@ public class Offer : Entity, IAggregateRoot
     private ContractDuration _contractDuration;
 
     private Salary _salary;
+    
+    private DateTime _createDate;
+    
+    private DateTime _expirationDate;
 }
