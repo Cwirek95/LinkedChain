@@ -1,10 +1,13 @@
 ﻿using LinkedChain.BuildingBlocks.Domain;
+using LinkedChain.Modules.Recruitment.Domain.Users;
 
 namespace LinkedChain.Modules.Recruitment.Domain.Offer;
 
 public class Offer : Entity, IAggregateRoot
 {
     public OfferId Id { get; private set; }
+
+    private UserId _employee;
 
     private OfferStatus _status;
 
