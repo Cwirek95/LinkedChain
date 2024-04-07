@@ -8,6 +8,8 @@ public class Offer : Entity, IAggregateRoot
     public OfferId Id { get; private set; }
 
     private UserId _employee;
+    
+    private UserId _employer;
 
     private OfferStatus _status;
 
