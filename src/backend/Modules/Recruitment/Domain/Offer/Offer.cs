@@ -14,6 +14,7 @@ public class Offer : Entity, IAggregateRoot
     private OfferStatus _status;
 
     private ContractType _contractType;
+    
     private ContractDuration _contractDuration;
 
     private Salary _salary;
