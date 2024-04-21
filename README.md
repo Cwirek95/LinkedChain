@@ -5,6 +5,10 @@
 
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> a63b8977e249f919a00e70b90331eabdc981a44a
 <p align="center">
     <img src="assets/images/LinkedChain-logo.png" alt="LinkedChain" border="0" style="width:60%; height:auto;">
 </p>
