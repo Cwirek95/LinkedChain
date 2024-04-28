@@ -9,6 +9,7 @@ public class Offer : Entity, IAggregateRoot
 
     private UserId _employee;
     
+    
     private UserId _employer;
 
     private OfferStatus _status;
