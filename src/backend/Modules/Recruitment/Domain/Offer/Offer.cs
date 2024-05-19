@@ -1,4 +1,5 @@
 ﻿using LinkedChain.BuildingBlocks.Domain;
+using LinkedChain.Modules.Recruitment.Domain.Offer.Rules;
 using LinkedChain.Modules.Recruitment.Domain.SharedKernel;
 using LinkedChain.Modules.Recruitment.Domain.Users;
 
@@ -44,5 +45,24 @@ public class Offer : Entity, IAggregateRoot
         _salary = salary;
         _createDate = SystemClock.Now;
         _expirationDate = SystemClock.Now.AddDays(7);
+    }
+
+    public static Offer CreateNew(
+        UserId employee,
+        UserId employer,
+        string description,
+        ContractType contractType,
+        ContractDuration contractDuration,
+        Salary salary)
+    {
+        CheckRule(new DurationOfContractMustBeDefinedStartDateRule(contractDuration));
+        
+        return new Offer(
+            employee,
+            employer,
+            description,
+            contractType,
+            contractDuration,
+            salary);
     }
 }

@@ -21,7 +21,7 @@ public abstract class Entity
         _domainEvents.Add(domainEvent);
     }
 
-    protected void CheckRule(IBusinessRule rule)
+    protected static void CheckRule(IBusinessRule rule)
     {
         if (rule.IsBroken())
         {

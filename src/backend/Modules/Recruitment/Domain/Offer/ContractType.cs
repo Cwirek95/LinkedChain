@@ -10,7 +10,7 @@ public class ContractType : ValueObject
     
     public string Type { get; }
 
-    public ContractType(string type)
+    private ContractType(string type)
     {
         Type = type;
     }
