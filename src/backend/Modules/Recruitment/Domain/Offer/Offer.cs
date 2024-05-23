@@ -1,4 +1,5 @@
 ﻿using LinkedChain.BuildingBlocks.Domain;
+using LinkedChain.Modules.Recruitment.Domain.Offer.Events;
 using LinkedChain.Modules.Recruitment.Domain.Offer.Rules;
 using LinkedChain.Modules.Recruitment.Domain.SharedKernel;
 using LinkedChain.Modules.Recruitment.Domain.Users;
@@ -10,7 +11,7 @@ public class Offer : Entity, IAggregateRoot
     public OfferId Id { get; private set; }
 
     private UserId _employee;
-    
+
     private UserId _employer;
 
     private string _description;
@@ -18,13 +19,13 @@ public class Offer : Entity, IAggregateRoot
     private OfferStatus _status;
 
     private ContractType _contractType;
-    
+
     private ContractDuration _contractDuration;
 
     private Salary _salary;
-    
+
     private DateTime _createDate;
-    
+
     private DateTime _expirationDate;
 
     private Offer(
@@ -35,6 +36,8 @@ public class Offer : Entity, IAggregateRoot
         ContractDuration contractDuration,
         Salary salary)
     {
+        CheckRule(new DurationOfContractMustBeDefinedStartDateRule(contractDuration));
+
         Id = new OfferId(Guid.NewGuid());
         _employee = employee;
         _employer = employer;
@@ -45,6 +48,14 @@ public class Offer : Entity, IAggregateRoot
         _salary = salary;
         _createDate = SystemClock.Now;
         _expirationDate = SystemClock.Now.AddDays(7);
+        
+        AddDomainEvent(new OfferCreatedDomainEvent(
+            Id,
+            employee,
+            employer,
+            contractType,
+            contractDuration,
+            salary));
     }
 
     public static Offer CreateNew(
@@ -53,16 +64,20 @@ public class Offer : Entity, IAggregateRoot
         string description,
         ContractType contractType,
         ContractDuration contractDuration,
-        Salary salary)
+        Salary salary) => new Offer(
+        employee,
+        employer,
+        description,
+        contractType,
+        contractDuration,
+        salary);
+
+    public void Expire()
     {
-        CheckRule(new DurationOfContractMustBeDefinedStartDateRule(contractDuration));
-        
-        return new Offer(
-            employee,
-            employer,
-            description,
-            contractType,
-            contractDuration,
-            salary);
+        if (_status == OfferStatus.Sent)
+        {
+            _status = OfferStatus.Expired;
+            AddDomainEvent(new OfferExpiredDomainEvent(Id));
+        }
     }
 }
