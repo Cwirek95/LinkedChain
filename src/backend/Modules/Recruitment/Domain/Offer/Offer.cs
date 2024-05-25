@@ -64,20 +64,38 @@ public class Offer : Entity, IAggregateRoot
         string description,
         ContractType contractType,
         ContractDuration contractDuration,
-        Salary salary) => new Offer(
-        employee,
-        employer,
-        description,
-        contractType,
-        contractDuration,
-        salary);
+        Salary salary)
+    {
+        return new Offer(
+            employee,
+            employer,
+            description,
+            contractType,
+            contractDuration,
+            salary);
+    }
 
     public void Expire()
     {
-        if (_status == OfferStatus.Sent)
-        {
-            _status = OfferStatus.Expired;
-            AddDomainEvent(new OfferExpiredDomainEvent(Id));
-        }
+        CheckRule(new OnlySentStatusOfferCanBeExpireRule(_status));
+        
+        _status = OfferStatus.Expired;
+        AddDomainEvent(new OfferExpiredDomainEvent(Id));
+    }
+
+    public void Accept()
+    {
+        CheckRule(new OnlySentStatusOfferCanBeAcceptRule(_status));
+        
+        _status = OfferStatus.Accepted;
+        AddDomainEvent(new OfferAcceptedDomainEvent(Id));
+    }
+
+    public void Reject()
+    {
+        CheckRule(new OnlySentStatusOfferCanBeRejectRule(_status));
+        
+        _status = OfferStatus.Rejected;
+        AddDomainEvent(new OfferRejectedDomainEvent(Id));
     }
 }
