@@ -131,9 +131,7 @@ The entire plan for my application is continuously updated in the [Projects](htt
 
 ### First stage:
 
-**Deadline:** 08.06.2024 (until the end of the 100commitow competition)
-
-The main goal of the first phase of the project, prepared as part of the 100commitow competition, is to demonstrate the main business idea of building reliable and trustworthy labor relations based on the blockchain network. Accordingly, the main focus will be on proper design, configuration and integration of the main parts of the application. Then, simple functionalities will be added that can practically demonstrate the application of the presented business plan, i.e. the review and recommendation system.
+The main goal of the first phase of the project is to demonstrate the main business idea of building reliable and trustworthy labor relations based on the blockchain network. Accordingly, the main focus will be on proper design, configuration and integration of the main parts of the application. Then, simple functionalities will be added that can practically demonstrate the application of the presented business plan, i.e. the review and recommendation system.
 
 |  | Task | Priority
 | --- | --- | --- |
