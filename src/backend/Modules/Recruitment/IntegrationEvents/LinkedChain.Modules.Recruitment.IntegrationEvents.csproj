@@ -7,11 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Domain\LinkedChain.BuildingBlocks.Domain.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="FluentValidation" Version="11.9.1" />
+    <ProjectReference Include="..\..\..\BuildingBlocks\Infrastructure\LinkedChain.BuildingBlocks.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

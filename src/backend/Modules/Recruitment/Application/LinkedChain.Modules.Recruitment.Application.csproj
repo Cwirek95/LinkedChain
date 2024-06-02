@@ -8,6 +8,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\BuildingBlocks\Domain\LinkedChain.BuildingBlocks.Domain.csproj" />
+    <ProjectReference Include="..\Domain\LinkedChain.Modules.Recruitment.Domain.csproj" />
+    <ProjectReference Include="..\IntegrationEvents\LinkedChain.Modules.Recruitment.IntegrationEvents.csproj" />
   </ItemGroup>
 
 </Project>

@@ -5,7 +5,7 @@ namespace LinkedChain.Modules.Recruitment.Domain.Offer;
 public class ContractType : ValueObject
 {
     public static ContractType Permanent => new ContractType(nameof(Permanent));
-    public static ContractType MandateContract => new ContractType(nameof(MandateContract));
+    public static ContractType Mandate => new ContractType(nameof(Mandate));
     public static ContractType B2B => new ContractType(nameof(B2B));
     
     public string Type { get; }

@@ -1,4 +1,5 @@
 ﻿using LinkedChain.BuildingBlocks.Domain;
+using LinkedChain.Modules.Recruitment.Domain.Offer.Rules;
 
 namespace LinkedChain.Modules.Recruitment.Domain.Offer;
 
@@ -15,6 +16,8 @@ public class ContractDuration : ValueObject
 
     public static ContractDuration CreateNewBetweenDates(DateTime startDate, DateTime endDate)
     {
+        CheckRule(new StartDateOfContractMustBeBeforeEndDateRule(startDate, endDate));
+        
         return new ContractDuration(startDate, endDate);
     }
     

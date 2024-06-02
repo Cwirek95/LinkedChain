@@ -16,4 +16,9 @@ public class PayPeriod : ValueObject
     {
         Period = period;
     }
+
+    public static PayPeriod Of(string code)
+    {
+        return new PayPeriod(code);
+    }
 }
