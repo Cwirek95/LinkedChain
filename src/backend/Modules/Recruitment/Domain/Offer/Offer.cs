@@ -57,6 +57,11 @@ public class Offer : Entity, IAggregateRoot
             contractDuration,
             salary));
     }
+    
+    private Offer()
+    {
+        // EF required
+    }
 
     public static Offer CreateNew(
         UserId employee,
