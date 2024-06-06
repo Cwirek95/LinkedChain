@@ -2,7 +2,7 @@
 
 namespace LinkedChain.Modules.Recruitment.Application.Offers.CreateB2BContractOffer;
 
-public class CreateB2BContractOfferCommandValidator : AbstractValidator<CreateB2BContractOfferCommand>
+internal class CreateB2BContractOfferCommandValidator : AbstractValidator<CreateB2BContractOfferCommand>
 {
     public CreateB2BContractOfferCommandValidator()
     {
