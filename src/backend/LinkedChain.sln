@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedChain.Modules.Recruit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedChain.Modules.Recruitment.Infrastructure", "Modules\Recruitment\Infrastructure\LinkedChain.Modules.Recruitment.Infrastructure.csproj", "{A56D46E4-566E-4E67-8597-529B33A3C787}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedChain.Modules.Recruitment.Domain.UnitTests", "Modules\Recruitment\Tests\UnitTests\LinkedChain.Modules.Recruitment.Domain.UnitTests.csproj", "{B9A1841F-A9FB-48F8-A654-ABEE82506554}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -68,6 +70,10 @@ Global
 		{A56D46E4-566E-4E67-8597-529B33A3C787}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A56D46E4-566E-4E67-8597-529B33A3C787}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A56D46E4-566E-4E67-8597-529B33A3C787}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9A1841F-A9FB-48F8-A654-ABEE82506554}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9A1841F-A9FB-48F8-A654-ABEE82506554}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9A1841F-A9FB-48F8-A654-ABEE82506554}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9A1841F-A9FB-48F8-A654-ABEE82506554}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{3397C05F-1777-47A8-B833-4E4EF69E23E4} = {52E292A3-2736-439C-A434-0A6F91D4A49B}
@@ -80,5 +86,6 @@ Global
 		{9147BCB8-D0BF-4CF6-BEB5-5565279BC364} = {739C67D0-F45E-4C5A-AA5C-5B104EF138A9}
 		{0CEF0DB8-AA97-44A5-ADBD-7110D2E6D40A} = {9147BCB8-D0BF-4CF6-BEB5-5565279BC364}
 		{A56D46E4-566E-4E67-8597-529B33A3C787} = {739C67D0-F45E-4C5A-AA5C-5B104EF138A9}
+		{B9A1841F-A9FB-48F8-A654-ABEE82506554} = {9147BCB8-D0BF-4CF6-BEB5-5565279BC364}
 	EndGlobalSection
 EndGlobal
