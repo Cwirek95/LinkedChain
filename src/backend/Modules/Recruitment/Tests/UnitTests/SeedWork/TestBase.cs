@@ -1,4 +1,5 @@
-﻿using LinkedChain.BuildingBlocks.Domain;
+﻿using FluentAssertions;
+using LinkedChain.BuildingBlocks.Domain;
 using LinkedChain.BuildingBlocks.Domain.Events;
 using LinkedChain.BuildingBlocks.Domain.Exceptions;
 using LinkedChain.Modules.Recruitment.Domain.SharedKernel;
