@@ -7,15 +7,15 @@ public class OfferCreatedDomainEvent : DomainEventBase
 {
     public OfferId OfferId { get; }
     
-    private UserId Employee { get; }
+    public UserId Employee { get; }
 
-    private UserId Employer { get; }
+    public UserId Employer { get; }
 
-    private ContractType ContractType { get; }
+    public ContractType ContractType { get; }
 
-    private ContractDuration ContractDuration { get; }
+    public ContractDuration ContractDuration { get; }
 
-    private Salary Salary { get; }
+    public Salary Salary { get; }
 
     public OfferCreatedDomainEvent(
         OfferId offerId,

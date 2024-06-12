@@ -7,6 +7,17 @@ namespace LinkedChain.Modules.Recruitment.Domain.UnitTests.Offers;
 
 public class OfferTestsBase : TestBase
 {
+    protected Offer.Offer CreateSentPermanentIndefinitelyContractOfferTestData()
+    {
+        return Offer.Offer.CreateNew(
+            new UserId(Guid.NewGuid()),
+            new UserId(Guid.NewGuid()),
+            "Description",
+            ContractType.Permanent,
+            ContractDuration.CreateNewIndefinitely(SystemClock.Now),
+            Salary.Of(5000, "PLN", PayPeriod.Monthly));
+    }
+    
     protected Offer.Offer CreateExpiredPermanentIndefinitelyContractOfferTestData()
     {
         var offer = Offer.Offer.CreateNew(
