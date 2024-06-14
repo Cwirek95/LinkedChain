@@ -92,4 +92,47 @@ public class OfferTests : OfferTestsBase
         var offerAccepted = AssertPublishedDomainEvent<OfferAcceptedDomainEvent>(offer);
         offerAccepted.OfferId.Should().Be(offer.Id);
     }
+    
+    [Test]
+    public void RejectOffer_WhenOfferIsAccepted_IsNotPossible()
+    {
+        var offer = CreateAcceptedPermanentIndefinitelyContractOfferTestData();
+
+        AssertBrokenRule<OnlySentStatusOfferCanBeRejectRule>(() =>
+        {
+            offer.Reject();
+        });
+    }
+    
+    [Test]
+    public void RejectOffer_WhenOfferIsRejected_IsNotPossible()
+    {
+        var offer = CreateRejectedPermanentIndefinitelyContractOfferTestData();
+
+        AssertBrokenRule<OnlySentStatusOfferCanBeRejectRule>(() =>
+        {
+            offer.Reject();
+        });
+    }
+    
+    [Test]
+    public void RejectOffer_WhenOfferIsExpired_IsNotPossible()
+    {
+        var offer = CreateExpiredPermanentIndefinitelyContractOfferTestData();
+
+        AssertBrokenRule<OnlySentStatusOfferCanBeRejectRule>(() =>
+        {
+            offer.Reject();
+        });
+    }
+    
+    [Test]
+    public void RejectOffer_WhenOfferIsSentStatus_IsSuccessful()
+    {
+        var offer = CreateSentPermanentIndefinitelyContractOfferTestData();
+        offer.Reject();
+
+        var offerAccepted = AssertPublishedDomainEvent<OfferRejectedDomainEvent>(offer);
+        offerAccepted.OfferId.Should().Be(offer.Id);
+    }
 }
