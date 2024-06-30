@@ -15,11 +15,11 @@ internal class UnitOfWorkCommandHandlerDecorator<T> : ICommandHandler<T>
     public UnitOfWorkCommandHandlerDecorator(
         ICommandHandler<T> decorated,
         IUnitOfWork unitOfWork,
-        RecruitmentContext meetingContext)
+        RecruitmentContext recruitmentContext)
     {
         _decorated = decorated;
         _unitOfWork = unitOfWork;
-        _recruitmentContext = meetingContext;
+        _recruitmentContext = recruitmentContext;
     }
 
     public async Task Handle(T command, CancellationToken cancellationToken)
