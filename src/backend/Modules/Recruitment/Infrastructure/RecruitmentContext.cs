@@ -3,7 +3,7 @@ using LinkedChain.BuildingBlocks.Infrastructure.InternalCommands;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
-namespace LinkedChain.Modules.Recruitment.Infrastructure.Configuration;
+namespace LinkedChain.Modules.Recruitment.Infrastructure;
 
 internal class RecruitmentContext : DbContext
 {
@@ -14,7 +14,7 @@ internal class RecruitmentContext : DbContext
     private readonly ILoggerFactory _loggerFactory;
 
     public RecruitmentContext(DbContextOptions options, ILoggerFactory loggerFactory)
-        :base(options)
+        : base(options)
     {
         _loggerFactory = loggerFactory;
     }

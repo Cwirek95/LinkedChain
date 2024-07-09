@@ -13,6 +13,7 @@
   <ItemGroup>
     <PackageReference Include="Dapper" Version="2.1.35" />
     <PackageReference Include="FluentValidation" Version="11.9.1" />
+    <PackageReference Include="Quartz" Version="3.11.0" />
   </ItemGroup>
 
 </Project>

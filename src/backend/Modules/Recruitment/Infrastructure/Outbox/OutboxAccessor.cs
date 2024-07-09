@@ -1,5 +1,4 @@
 ﻿using LinkedChain.BuildingBlocks.Application.Outbox;
-using LinkedChain.Modules.Recruitment.Infrastructure.Configuration;
 
 namespace LinkedChain.Modules.Recruitment.Infrastructure.Outbox;
 
