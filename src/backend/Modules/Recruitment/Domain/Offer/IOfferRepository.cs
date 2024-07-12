@@ -2,7 +2,7 @@
 
 public interface IOfferRepository
 {
-    Task<Offer> GetByIdAsync(OfferId id);
+    Task<Offer?> GetByIdAsync(OfferId id);
 
     Task AddAsync(Offer offer);
 }
