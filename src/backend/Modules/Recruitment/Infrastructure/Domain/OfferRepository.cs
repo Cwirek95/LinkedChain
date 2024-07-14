@@ -11,7 +11,7 @@ internal class OfferRepository : IOfferRepository
         _context = context;
     }
 
-    public async Task<Offer?> GetByIdAsync(OfferId id)
+    public async Task<Offer> GetByIdAsync(OfferId id)
     {
         return await _context.Offers.FindAsync(id);
     }
