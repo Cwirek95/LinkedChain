@@ -93,7 +93,8 @@ public class Offer : Entity, IAggregateRoot
         CheckRule(new OnlySentStatusOfferCanBeAcceptRule(_status));
         
         _status = OfferStatus.Accepted;
-        AddDomainEvent(new OfferAcceptedDomainEvent(Id));
+        AddDomainEvent(new OfferAcceptedDomainEvent(Id, _employee.Value, _employer.Value, _contractType.Type, _salary.Period.Period,
+            _salary.Currency, _salary.Amount, _contractDuration.StartDate, _contractDuration.EndDate));
     }
 
     public void Reject()

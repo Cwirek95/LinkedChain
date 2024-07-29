@@ -1,11 +1,9 @@
-﻿using LinkedChain.BuildingBlocks.Domain.Events;
+﻿using LinkedChain.BuildingBlocks.Infrastructure.EventBus;
 
-namespace LinkedChain.Modules.Recruitment.Domain.Offer.Events;
+namespace LinkedChain.Modules.Recruitment.IntegrationEvents;
 
-public class OfferAcceptedDomainEvent : DomainEventBase
+public class OfferAcceptedIntegrationEvent : IntegrationEvent
 {
-    public OfferId OfferId { get; }
-
     public Guid EmployeeId { get; }
 
     public Guid EmployerId { get; }
@@ -22,8 +20,9 @@ public class OfferAcceptedDomainEvent : DomainEventBase
 
     public DateTime? EndDate { get; }
 
-    public OfferAcceptedDomainEvent(
-        OfferId offerId,
+    public OfferAcceptedIntegrationEvent(
+        Guid id,
+        DateTime occurredOn,
         Guid employeeId,
         Guid employerId,
         string contractType,
@@ -32,8 +31,8 @@ public class OfferAcceptedDomainEvent : DomainEventBase
         decimal salaryAmount,
         DateTime startDate,
         DateTime? endDate)
+        : base(id, occurredOn)
     {
-        OfferId = offerId;
         EmployeeId = employeeId;
         EmployerId = employerId;
         ContractType = contractType;
