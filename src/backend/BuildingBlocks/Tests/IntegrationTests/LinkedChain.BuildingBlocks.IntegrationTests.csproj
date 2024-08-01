@@ -17,9 +17,4 @@
     <PackageReference Include="coverlet.collector" Version="6.0.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\..\BuildingBlocks\Infrastructure\LinkedChain.BuildingBlocks.Infrastructure.csproj" />
-    <ProjectReference Include="..\..\Infrastructure\LinkedChain.Modules.Recruitment.Infrastructure.csproj" />
-  </ItemGroup>
-
 </Project>
