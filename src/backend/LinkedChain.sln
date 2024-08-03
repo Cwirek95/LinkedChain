@@ -35,6 +35,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{DD9DFA20
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedChain.BuildingBlocks.IntegrationTests", "BuildingBlocks\Tests\IntegrationTests\LinkedChain.BuildingBlocks.IntegrationTests.csproj", "{854B4AB4-3457-4BA6-8659-9C2DB39CD1F3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedChain.BuildingBlocks.Application.UnitTests", "BuildingBlocks\Tests\Application.UnitTests\LinkedChain.BuildingBlocks.Application.UnitTests.csproj", "{785A4E08-7AD1-48D6-B054-3E9A6AA6FF92}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -88,6 +90,10 @@ Global
 		{854B4AB4-3457-4BA6-8659-9C2DB39CD1F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{854B4AB4-3457-4BA6-8659-9C2DB39CD1F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{854B4AB4-3457-4BA6-8659-9C2DB39CD1F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{785A4E08-7AD1-48D6-B054-3E9A6AA6FF92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{785A4E08-7AD1-48D6-B054-3E9A6AA6FF92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{785A4E08-7AD1-48D6-B054-3E9A6AA6FF92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{785A4E08-7AD1-48D6-B054-3E9A6AA6FF92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{3397C05F-1777-47A8-B833-4E4EF69E23E4} = {52E292A3-2736-439C-A434-0A6F91D4A49B}
@@ -104,5 +110,6 @@ Global
 		{B02CA217-23FC-431E-BA24-F95AE4978C7A} = {9147BCB8-D0BF-4CF6-BEB5-5565279BC364}
 		{DD9DFA20-4582-4602-98C3-0C9A8F62EB11} = {52E292A3-2736-439C-A434-0A6F91D4A49B}
 		{854B4AB4-3457-4BA6-8659-9C2DB39CD1F3} = {DD9DFA20-4582-4602-98C3-0C9A8F62EB11}
+		{785A4E08-7AD1-48D6-B054-3E9A6AA6FF92} = {DD9DFA20-4582-4602-98C3-0C9A8F62EB11}
 	EndGlobalSection
 EndGlobal
