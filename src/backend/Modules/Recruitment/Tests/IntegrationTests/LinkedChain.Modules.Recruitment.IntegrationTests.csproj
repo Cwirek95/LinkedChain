@@ -19,6 +19,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\..\BuildingBlocks\Infrastructure\LinkedChain.BuildingBlocks.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\..\..\BuildingBlocks\Tests\IntegrationTests\LinkedChain.BuildingBlocks.IntegrationTests.csproj" />
     <ProjectReference Include="..\..\Infrastructure\LinkedChain.Modules.Recruitment.Infrastructure.csproj" />
   </ItemGroup>
 

@@ -4,7 +4,7 @@ namespace LinkedChain.Modules.Recruitment.Application.Offers.CreatePermanentCont
 
 public sealed class CreatePermanentContractOfferCommand : CommandBase<Guid>
 {
-    private CreatePermanentContractOfferCommand(
+    public CreatePermanentContractOfferCommand(
         Guid employeeId,
         Guid employerId,
         string description,
