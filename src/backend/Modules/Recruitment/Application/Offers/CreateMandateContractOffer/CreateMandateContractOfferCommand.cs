@@ -4,7 +4,7 @@ namespace LinkedChain.Modules.Recruitment.Application.Offers.CreateMandateContra
 
 public sealed class CreateMandateContractOfferCommand : CommandBase<Guid>
 {
-    private CreateMandateContractOfferCommand(
+    public CreateMandateContractOfferCommand(
         Guid employeeId,
         Guid employerId,
         string description,
