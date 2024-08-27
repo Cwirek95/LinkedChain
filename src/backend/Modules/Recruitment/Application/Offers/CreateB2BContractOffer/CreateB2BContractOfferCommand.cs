@@ -4,7 +4,7 @@ namespace LinkedChain.Modules.Recruitment.Application.Offers.CreateB2BContractOf
 
 public sealed class CreateB2BContractOfferCommand : CommandBase<Guid>
 {
-    private CreateB2BContractOfferCommand(
+    public CreateB2BContractOfferCommand(
         Guid employeeId,
         Guid employerId,
         string description,
