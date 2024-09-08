@@ -13,7 +13,7 @@ public class AgreementDuration : ValueObject
         EndDate = endDate;
     }
 
-    public static AgreementDuration CreateNewBetweenDates(DateTime startDate, DateTime? endDate)
+    public static AgreementDuration Create(DateTime startDate, DateTime? endDate)
     { 
         return new AgreementDuration(startDate, endDate);
     }
