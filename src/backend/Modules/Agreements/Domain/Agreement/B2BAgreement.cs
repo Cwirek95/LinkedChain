@@ -43,4 +43,21 @@ public class B2BAgreement
     {
         // EF required
     }
+
+    public static B2BAgreement CreateNew(
+        OfferId offerId,
+        UserId employee,
+        UserId employer,
+        string descritption,
+        AgreementDuration agreementDuration,
+        Salary salary)
+    {
+        return new B2BAgreement(
+            offerId,
+            employee,
+            employer,
+            descritption,
+            agreementDuration,
+            salary);
+    }
 }

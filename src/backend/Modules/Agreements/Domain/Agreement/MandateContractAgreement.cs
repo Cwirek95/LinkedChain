@@ -43,4 +43,21 @@ public class MandateContractAgreement
     {
         // EF required
     }
+
+    public static MandateContractAgreement CreateNew(
+        OfferId offerId,
+        UserId employee,
+        UserId employer,
+        string descritption,
+        AgreementDuration agreementDuration,
+        Salary salary)
+    {
+        return new MandateContractAgreement(
+            offerId,
+            employee,
+            employer,
+            descritption,
+            agreementDuration,
+            salary);
+    }
 }

@@ -43,4 +43,21 @@ public class PernamentContractAgreement
     {
         // EF required
     }
+
+    public static PernamentContractAgreement CreateNew(
+        OfferId offerId,
+        UserId employee,
+        UserId employer,
+        string descritption,
+        AgreementDuration agreementDuration,
+        Salary salary)
+    {
+        return new PernamentContractAgreement(
+            offerId,
+            employee,
+            employer,
+            descritption,
+            agreementDuration,
+            salary);
+    }
 }
