@@ -1,9 +1,11 @@
-﻿using LinkedChain.Modules.Agreements.Domain.SharedKernel;
+﻿using LinkedChain.BuildingBlocks.Domain;
+using LinkedChain.Modules.Agreements.Domain.Events;
+using LinkedChain.Modules.Agreements.Domain.SharedKernel;
 using LinkedChain.Modules.Agreements.Domain.Users;
 
 namespace LinkedChain.Modules.Agreements.Domain.Agreement;
 
-public class B2BAgreement
+public class B2BAgreement : Entity, IAggregateRoot
 {
     public AgreementId Id { get; private set; }
 
@@ -37,6 +39,8 @@ public class B2BAgreement
         _agreementDuration = agreementDuration;
         _salary = salary;
         _createDate = SystemClock.Now;
+
+        AddDomainEvent(new AgreementCreatedDomainEvent(Id));
     }
 
     private B2BAgreement()
