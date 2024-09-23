@@ -21,7 +21,11 @@ public class B2BAgreement : Entity, IAggregateRoot
 
     private Salary _salary;
 
+    private bool _isSigned;
+
     private DateTime _createDate;
+
+    private DateTime? _signatureDate;
 
     private B2BAgreement(
         OfferId offer,
@@ -63,5 +67,13 @@ public class B2BAgreement : Entity, IAggregateRoot
             descritption,
             agreementDuration,
             salary);
+    }
+
+    public void Sign(DateTime signatureDate)
+    {
+        _isSigned = true;
+        _signatureDate = signatureDate;
+
+        AddDomainEvent(new AgreementSignedDomainEvent(Id));
     }
 }
