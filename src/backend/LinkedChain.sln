@@ -5,49 +5,54 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{52E292A3-2736-439C-A434-0A6F91D4A49B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedChain.BuildingBlocks.Domain", "BuildingBlocks\Domain\LinkedChain.BuildingBlocks.Domain.csproj", "{3397C05F-1777-47A8-B833-4E4EF69E23E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedChain.BuildingBlocks.Domain", "BuildingBlocks\Domain\LinkedChain.BuildingBlocks.Domain.csproj", "{3397C05F-1777-47A8-B833-4E4EF69E23E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedChain.BuildingBlocks.Infrastructure", "BuildingBlocks\Infrastructure\LinkedChain.BuildingBlocks.Infrastructure.csproj", "{B14ABAE8-989E-42C6-BC67-92206D67D6F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedChain.BuildingBlocks.Infrastructure", "BuildingBlocks\Infrastructure\LinkedChain.BuildingBlocks.Infrastructure.csproj", "{B14ABAE8-989E-42C6-BC67-92206D67D6F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedChain.BuildingBlocks.Application", "BuildingBlocks\Application\LinkedChain.BuildingBlocks.Application.csproj", "{CFA45CB7-0349-4BF5-B26D-920307624C80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedChain.BuildingBlocks.Application", "BuildingBlocks\Application\LinkedChain.BuildingBlocks.Application.csproj", "{CFA45CB7-0349-4BF5-B26D-920307624C80}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{757B34A0-A34A-45D9-820A-16E6A1C66B69}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Recruitment", "Recruitment", "{739C67D0-F45E-4C5A-AA5C-5B104EF138A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedChain.Modules.Recruitment.Domain", "Modules\Recruitment\Domain\LinkedChain.Modules.Recruitment.Domain.csproj", "{BCBBCACA-F1B4-4C70-8ABE-9539CE484B34}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedChain.Modules.Recruitment.Domain", "Modules\Recruitment\Domain\LinkedChain.Modules.Recruitment.Domain.csproj", "{BCBBCACA-F1B4-4C70-8ABE-9539CE484B34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedChain.Modules.Recruitment.Application", "Modules\Recruitment\Application\LinkedChain.Modules.Recruitment.Application.csproj", "{2E569505-D257-42B6-A99B-9A1CBC940966}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedChain.Modules.Recruitment.Application", "Modules\Recruitment\Application\LinkedChain.Modules.Recruitment.Application.csproj", "{2E569505-D257-42B6-A99B-9A1CBC940966}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedChain.Modules.Recruitment.IntegrationEvents", "Modules\Recruitment\IntegrationEvents\LinkedChain.Modules.Recruitment.IntegrationEvents.csproj", "{23477ECF-3285-43FF-9D51-ABA820FD4DCB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedChain.Modules.Recruitment.IntegrationEvents", "Modules\Recruitment\IntegrationEvents\LinkedChain.Modules.Recruitment.IntegrationEvents.csproj", "{23477ECF-3285-43FF-9D51-ABA820FD4DCB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{9147BCB8-D0BF-4CF6-BEB5-5565279BC364}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedChain.Modules.Recruitment.ArchTests", "Modules\Recruitment\Tests\ArchTests\LinkedChain.Modules.Recruitment.ArchTests.csproj", "{0CEF0DB8-AA97-44A5-ADBD-7110D2E6D40A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedChain.Modules.Recruitment.ArchTests", "Modules\Recruitment\Tests\ArchTests\LinkedChain.Modules.Recruitment.ArchTests.csproj", "{0CEF0DB8-AA97-44A5-ADBD-7110D2E6D40A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedChain.Modules.Recruitment.Infrastructure", "Modules\Recruitment\Infrastructure\LinkedChain.Modules.Recruitment.Infrastructure.csproj", "{A56D46E4-566E-4E67-8597-529B33A3C787}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedChain.Modules.Recruitment.Infrastructure", "Modules\Recruitment\Infrastructure\LinkedChain.Modules.Recruitment.Infrastructure.csproj", "{A56D46E4-566E-4E67-8597-529B33A3C787}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedChain.Modules.Recruitment.Domain.UnitTests", "Modules\Recruitment\Tests\UnitTests\LinkedChain.Modules.Recruitment.Domain.UnitTests.csproj", "{B9A1841F-A9FB-48F8-A654-ABEE82506554}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedChain.Modules.Recruitment.Domain.UnitTests", "Modules\Recruitment\Tests\UnitTests\LinkedChain.Modules.Recruitment.Domain.UnitTests.csproj", "{B9A1841F-A9FB-48F8-A654-ABEE82506554}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedChain.Modules.Recruitment.IntegrationTests", "Modules\Recruitment\Tests\IntegrationTests\LinkedChain.Modules.Recruitment.IntegrationTests.csproj", "{B02CA217-23FC-431E-BA24-F95AE4978C7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedChain.Modules.Recruitment.IntegrationTests", "Modules\Recruitment\Tests\IntegrationTests\LinkedChain.Modules.Recruitment.IntegrationTests.csproj", "{B02CA217-23FC-431E-BA24-F95AE4978C7A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{DD9DFA20-4582-4602-98C3-0C9A8F62EB11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedChain.BuildingBlocks.IntegrationTests", "BuildingBlocks\Tests\IntegrationTests\LinkedChain.BuildingBlocks.IntegrationTests.csproj", "{854B4AB4-3457-4BA6-8659-9C2DB39CD1F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedChain.BuildingBlocks.IntegrationTests", "BuildingBlocks\Tests\IntegrationTests\LinkedChain.BuildingBlocks.IntegrationTests.csproj", "{854B4AB4-3457-4BA6-8659-9C2DB39CD1F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedChain.BuildingBlocks.Application.UnitTests", "BuildingBlocks\Tests\Application.UnitTests\LinkedChain.BuildingBlocks.Application.UnitTests.csproj", "{785A4E08-7AD1-48D6-B054-3E9A6AA6FF92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedChain.BuildingBlocks.Application.UnitTests", "BuildingBlocks\Tests\Application.UnitTests\LinkedChain.BuildingBlocks.Application.UnitTests.csproj", "{785A4E08-7AD1-48D6-B054-3E9A6AA6FF92}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Agreements", "Agreements", "{1E28096C-BFB8-4CD2-9249-AAC6C381FDE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedChain.Modules.Agreements.Domain", "Modules\Agreements\Domain\LinkedChain.Modules.Agreements.Domain.csproj", "{D10D1763-5D30-4B33-9257-23A426AC1E21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedChain.Modules.Agreements.Domain", "Modules\Agreements\Domain\LinkedChain.Modules.Agreements.Domain.csproj", "{D10D1763-5D30-4B33-9257-23A426AC1E21}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{6C7F9477-C72C-4CC6-BFF6-BE2111C6A7C9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedChain.Modules.Agreements.Domain.UnitTests", "Modules\Agreements\Tests\UnitTests\LinkedChain.Modules.Agreements.Domain.UnitTests.csproj", "{7B0326F9-695B-41D3-B34D-9E2951FB9DC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedChain.Modules.Agreements.Infrastructure", "Modules\Agreements\Infrastructure\LinkedChain.Modules.Agreements.Infrastructure.csproj", "{3472DE18-F833-42F9-9A30-F6FE86DDC02A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedChain.Modules.Agreements.Application", "Modules\Agreements\Application\LinkedChain.Modules.Agreements.Application.csproj", "{88BE326A-1638-476B-9FE9-2FF866193667}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{3397C05F-1777-47A8-B833-4E4EF69E23E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -102,6 +107,21 @@ Global
 		{D10D1763-5D30-4B33-9257-23A426AC1E21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D10D1763-5D30-4B33-9257-23A426AC1E21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D10D1763-5D30-4B33-9257-23A426AC1E21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B0326F9-695B-41D3-B34D-9E2951FB9DC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B0326F9-695B-41D3-B34D-9E2951FB9DC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B0326F9-695B-41D3-B34D-9E2951FB9DC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B0326F9-695B-41D3-B34D-9E2951FB9DC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3472DE18-F833-42F9-9A30-F6FE86DDC02A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3472DE18-F833-42F9-9A30-F6FE86DDC02A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3472DE18-F833-42F9-9A30-F6FE86DDC02A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3472DE18-F833-42F9-9A30-F6FE86DDC02A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88BE326A-1638-476B-9FE9-2FF866193667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88BE326A-1638-476B-9FE9-2FF866193667}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88BE326A-1638-476B-9FE9-2FF866193667}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88BE326A-1638-476B-9FE9-2FF866193667}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{3397C05F-1777-47A8-B833-4E4EF69E23E4} = {52E292A3-2736-439C-A434-0A6F91D4A49B}
@@ -121,5 +141,12 @@ Global
 		{785A4E08-7AD1-48D6-B054-3E9A6AA6FF92} = {DD9DFA20-4582-4602-98C3-0C9A8F62EB11}
 		{1E28096C-BFB8-4CD2-9249-AAC6C381FDE7} = {757B34A0-A34A-45D9-820A-16E6A1C66B69}
 		{D10D1763-5D30-4B33-9257-23A426AC1E21} = {1E28096C-BFB8-4CD2-9249-AAC6C381FDE7}
+		{6C7F9477-C72C-4CC6-BFF6-BE2111C6A7C9} = {1E28096C-BFB8-4CD2-9249-AAC6C381FDE7}
+		{7B0326F9-695B-41D3-B34D-9E2951FB9DC7} = {6C7F9477-C72C-4CC6-BFF6-BE2111C6A7C9}
+		{3472DE18-F833-42F9-9A30-F6FE86DDC02A} = {1E28096C-BFB8-4CD2-9249-AAC6C381FDE7}
+		{88BE326A-1638-476B-9FE9-2FF866193667} = {1E28096C-BFB8-4CD2-9249-AAC6C381FDE7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC835DE1-B510-4AD9-8DD4-A7B31082105A}
 	EndGlobalSection
 EndGlobal
