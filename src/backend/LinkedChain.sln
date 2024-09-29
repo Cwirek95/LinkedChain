@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedChain.Modules.Agreeme
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedChain.Modules.Agreements.Application", "Modules\Agreements\Application\LinkedChain.Modules.Agreements.Application.csproj", "{88BE326A-1638-476B-9FE9-2FF866193667}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedChain.Modules.Agreements.IntegrationEvents", "Modules\Agreements\IntegrationEvents\LinkedChain.Modules.Agreements.IntegrationEvents.csproj", "{A3BE5888-DB8A-4C18-BC08-F6AFE2F13FDF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -119,6 +121,10 @@ Global
 		{88BE326A-1638-476B-9FE9-2FF866193667}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88BE326A-1638-476B-9FE9-2FF866193667}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88BE326A-1638-476B-9FE9-2FF866193667}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3BE5888-DB8A-4C18-BC08-F6AFE2F13FDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3BE5888-DB8A-4C18-BC08-F6AFE2F13FDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3BE5888-DB8A-4C18-BC08-F6AFE2F13FDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3BE5888-DB8A-4C18-BC08-F6AFE2F13FDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -145,6 +151,7 @@ Global
 		{7B0326F9-695B-41D3-B34D-9E2951FB9DC7} = {6C7F9477-C72C-4CC6-BFF6-BE2111C6A7C9}
 		{3472DE18-F833-42F9-9A30-F6FE86DDC02A} = {1E28096C-BFB8-4CD2-9249-AAC6C381FDE7}
 		{88BE326A-1638-476B-9FE9-2FF866193667} = {1E28096C-BFB8-4CD2-9249-AAC6C381FDE7}
+		{A3BE5888-DB8A-4C18-BC08-F6AFE2F13FDF} = {1E28096C-BFB8-4CD2-9249-AAC6C381FDE7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FC835DE1-B510-4AD9-8DD4-A7B31082105A}

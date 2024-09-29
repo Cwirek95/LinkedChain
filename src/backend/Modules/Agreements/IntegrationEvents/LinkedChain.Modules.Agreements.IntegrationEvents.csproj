@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Application\LinkedChain.Modules.Agreements.Application.csproj" />
+    <ProjectReference Include="..\..\..\BuildingBlocks\Infrastructure\LinkedChain.BuildingBlocks.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
