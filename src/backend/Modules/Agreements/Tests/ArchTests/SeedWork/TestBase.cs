@@ -1,4 +1,5 @@
-﻿using LinkedChain.Modules.Agreements.Domain.Agreement;
+﻿using LinkedChain.Modules.Agreements.Application.Contracts;
+using LinkedChain.Modules.Agreements.Domain.Agreement;
 using NetArchTest.Rules;
 using NUnit.Framework;
 using System.Reflection;
@@ -7,6 +8,8 @@ namespace LinkedChain.Modules.Agreements.Domain.ArchTests.SeedWork;
 
 public abstract class TestBase
 {
+    protected static Assembly ApplicationAssembly => typeof(CommandBase).Assembly;
+
     protected static Assembly DomainAssembly => typeof(B2BAgreement).Assembly;
 
     protected static void AssertAreImmutable(IEnumerable<Type> types)
