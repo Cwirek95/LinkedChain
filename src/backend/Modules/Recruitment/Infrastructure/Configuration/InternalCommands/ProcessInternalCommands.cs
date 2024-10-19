@@ -3,6 +3,6 @@ using LinkedChain.Modules.Recruitment.Infrastructure.Configuration.Processing;
 
 namespace LinkedChain.Modules.Recruitment.Infrastructure.Configuration.InternalCommands;
 
-internal class ProcessInternalCommandsCommand : CommandBase, IRecurringCommand
+internal class ProcessInternalCommands: CommandBase, IRecurringCommand
 {
 }

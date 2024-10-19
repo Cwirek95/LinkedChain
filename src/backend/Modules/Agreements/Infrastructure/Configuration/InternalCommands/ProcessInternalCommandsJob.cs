@@ -1,7 +1,7 @@
-﻿using LinkedChain.Modules.Recruitment.Infrastructure.Configuration.Processing;
+﻿using LinkedChain.Modules.Agreements.Infrastructure.Configuration.Processing;
 using Quartz;
 
-namespace LinkedChain.Modules.Recruitment.Infrastructure.Configuration.InternalCommands;
+namespace LinkedChain.Modules.Agreements.Infrastructure.Configuration.InternalCommands;
 
 [DisallowConcurrentExecution]
 public class ProcessInternalCommandsJob : IJob

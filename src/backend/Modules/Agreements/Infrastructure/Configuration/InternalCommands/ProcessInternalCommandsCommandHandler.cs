@@ -1,23 +1,23 @@
 ﻿using Dapper;
 using LinkedChain.BuildingBlocks.Application.DataAccess;
-using LinkedChain.Modules.Recruitment.Application.Configurations.Commands;
-using LinkedChain.Modules.Recruitment.Infrastructure.Configuration.Processing;
+using LinkedChain.Modules.Agreements.Application.Configurations.Commands;
+using LinkedChain.Modules.Agreements.Infrastructure.Configuration.Processing;
 using Newtonsoft.Json;
 using Polly;
 
-namespace LinkedChain.Modules.Recruitment.Infrastructure.Configuration.InternalCommands;
+namespace LinkedChain.Modules.Agreements.Infrastructure.Configuration.InternalCommands;
 
-internal class ProcessInternalCommandsCommandHandler : ICommandHandler<ProcessInternalCommandsCommand>
+internal class ProcessInternalCommandsHandler : ICommandHandler<ProcessInternalCommands>
 {
     private readonly ISqlConnectionFactory _sqlConnectionFactory;
 
-    public ProcessInternalCommandsCommandHandler(
+    public ProcessInternalCommandsHandler(
         ISqlConnectionFactory sqlConnectionFactory)
     {
         _sqlConnectionFactory = sqlConnectionFactory;
     }
 
-    public async Task Handle(ProcessInternalCommandsCommand command, CancellationToken cancellationToken)
+    public async Task Handle(ProcessInternalCommands command, CancellationToken cancellationToken)
     {
         var connection = this._sqlConnectionFactory.GetOpenConnection();
 
@@ -26,7 +26,7 @@ internal class ProcessInternalCommandsCommandHandler : ICommandHandler<ProcessIn
                                     [Command].[Id] AS [{nameof(InternalCommandDto.Id)}], 
                                     [Command].[Type] AS [{nameof(InternalCommandDto.Type)}], 
                                     [Command].[Data] AS [{nameof(InternalCommandDto.Data)}] 
-                                FROM [recruitment].[InternalCommands] AS [Command] 
+                                FROM [agreements].[InternalCommands] AS [Command] 
                                 WHERE [Command].[ProcessedDate] IS NULL 
                                 ORDER BY [Command].[EnqueueDate]
                                 """;
@@ -53,7 +53,7 @@ internal class ProcessInternalCommandsCommandHandler : ICommandHandler<ProcessIn
             {
                 await connection.ExecuteScalarAsync(
                     """
-                        UPDATE [recruitment].[InternalCommands] 
+                        UPDATE [agreements].[InternalCommands] 
                         SET ProcessedDate = @NowDate, Error = @Error 
                         WHERE [Id] = @Id
                         """,
